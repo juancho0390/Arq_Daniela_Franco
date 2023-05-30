@@ -1,0 +1,181 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+</style>
+
+
+
+
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background: #eaebef;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    width: 350px;
+}
+
+.nav_link{
+    color: #303440;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.nav_link--inside{
+    border-radius: 6px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.nav_link--inside:hover{
+    background: #d6d6d6;
+}
+
+.list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #fff;
+
+}
+
+.list_item{
+    list-style: none;
+    width: 100%;
+    text-align:center;
+    overflow: hidden;
+}
+
+.list_item--click{
+    cursor: pointer;
+}
+
+.list_button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.arrow .list_arrow{
+    transform: rotate(90deg);
+}
+
+.list_arrow{
+    margin-left: auto;
+    transition: transform .3s;
+}
+
+.list_show{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    height: 0;
+}
+
+
+.contenedor_global_superior{
+    display: grid;
+    grid-template-columns: 1fr 3.7fr;
+    background-color: rgb(202, 202, 202);
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+
+.contenedor_derecha{
+    background-color: rgb(202, 202, 202);
+    margin: 1px;
+    border-radius: 16px;
+    height: 750px;
+    position: relative;
+    max-height: 100%;
+    object-fit:cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.contenedor_global_inferior{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 16px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    
+    
+
+}
+
+
+
+
+
+
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    
+    border-radius: 16px
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: content;
+}
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    align-items: center;
+    bottom: 20px;
+    left: 40%;
+    transform: translateX(50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .75;
+    transition: opacity ease 250ms;
+    
+
+}
+
+
+.slider-nav a:hover{
+    opacity: 100%;
+}
+
+.foot{
+    display: flex;
+    gap: 15px;
+    justify-content:end;
+}
+
+.relevante{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
