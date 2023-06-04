@@ -315,6 +315,10 @@ body{
     
   }
 
+  .contenedor_izquierda{
+    padding: 7%;
+}
+
   .hablemos{
     background-color: #303440;
     width: max-content;
@@ -323,6 +327,7 @@ body{
     padding: .05% 3% .05% 3%;
     border-radius: 35px;
     color: #fff;
+    transition: .25s;
   }
 
 
