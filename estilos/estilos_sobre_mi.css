@@ -82,7 +82,7 @@ body{
 
 .list_img{
     border-radius: 50%;
-    background: none;
+
 }
 
 
@@ -366,18 +366,32 @@ body{
     }
 
     .list_button.list_img{
-        margin-left: 35%;
+       text-align: justify;
     }
 
     .contenedor_global_inferior{
         display: block;
+        height: auto;
+        
     }
     
     .relevante{
         margin-left: 30%;
+        margin-top: 5px;
+               
     }
 
     .foot{
         margin-right: 5%;
+    }
+
+    .list_img{
+        border-radius: 50%;
+        justify-content: center;
+    
+    }
+
+    .hablemos{
+        justify-content: center;
     }
   }
