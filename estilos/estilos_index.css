@@ -334,3 +334,60 @@ body{
     height: 200px;
     background-color: #fff;
   }
+
+  /*ESTILOS PARA HACER ADAPTATIVO EL SITIO A MOVILES*/
+
+  @media screen and (max-width: 720px) {
+
+    .contenedor_global_superior {
+        display: block;
+        height: auto;
+    }
+
+    .list {
+        width: 97vw;
+    }
+
+  
+
+    .contenedor_global_inferior {
+        display: block;
+        height: auto;
+
+    }
+
+    .relevante {
+        margin-left: 30%;
+        margin-top: 5px;
+
+    }
+
+    .foot {
+        margin-right: 5%;
+    }
+
+    .list_img {
+        border-radius: 50%;
+        justify-content: center;
+
+    }
+
+    .contenedor_derecha{
+        background-color: #000000;
+        padding: 10px;
+        margin-top: 20px;
+        height: auto;
+        position: relative;
+        
+        
+    }
+
+    .slider-nav{
+        display: flex;
+        column-gap: 1rem;
+        position:absolute;
+        bottom: 20px;
+        left: 30%;
+        z-index: 1;        
+    }
+}
