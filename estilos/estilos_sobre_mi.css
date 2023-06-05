@@ -1,37 +1,36 @@
-
-*{
+* {
     margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background: #eaebef;
     font-family: 'Poppins', sans-serif;
 }
 
-.nav{
+.nav {
     width: 350px;
 }
 
-.nav_link{
+.nav_link {
     color: #303440;
     display: block;
     padding: 15px 0;
     text-decoration: none;
 }
 
-.nav_link--inside{
+.nav_link--inside {
     border-radius: 6px;
     padding-left: 20px;
     text-align: left;
 }
 
-.nav_link--inside:hover{
+.nav_link--inside:hover {
     background: #d6d6d6;
 }
 
-.list{
+.list {
     width: 100%;
     height: 100%;
     display: flex;
@@ -42,18 +41,18 @@ body{
 
 }
 
-.list_item{
+.list_item {
     list-style: none;
     width: 100%;
-    text-align:center;
+    text-align: center;
     overflow: hidden;
 }
 
-.list_item--click{
+.list_item--click {
     cursor: pointer;
 }
 
-.list_button{
+.list_button {
     display: flex;
     align-items: center;
     gap: 1em;
@@ -61,16 +60,16 @@ body{
     margin: 0 auto;
 }
 
-.arrow .list_arrow{
+.arrow .list_arrow {
     transform: rotate(90deg);
 }
 
-.list_arrow{
+.list_arrow {
     margin-left: auto;
     transition: transform .3s;
 }
 
-.list_show{
+.list_show {
     width: 80%;
     margin-left: auto;
     border-left: 2px solid #303440;
@@ -80,13 +79,13 @@ body{
 }
 
 
-.list_img{
+.list_img {
     border-radius: 50%;
 
 }
 
 
-.contenedor_global_superior{
+.contenedor_global_superior {
     display: grid;
     grid-template-columns: 1fr 3.7fr;
     background-color: rgb(202, 202, 202);
@@ -97,19 +96,19 @@ body{
     background-image: url("images/superficie-gris-creativa-cuadrados_23-2148327028.avif");
 }
 
-.contenedor_derecha{
+.contenedor_derecha {
     background-color: rgb(202, 202, 202);
     margin: 1px;
     border-radius: 16px;
     height: 750px;
     position: relative;
     max-height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
-.contenedor_derecha_sobre_mi{
+.contenedor_derecha_sobre_mi {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color: rgb(202, 202, 202);
@@ -123,10 +122,10 @@ body{
     gap: 15px;
     margin: 5px;
     padding: 20px;
-    
+
 }
 
-.contenedor_global_inferior{
+.contenedor_global_inferior {
     width: 100%;
     height: 100px;
     background-color: rgb(110, 112, 133);
@@ -137,7 +136,7 @@ body{
     color: #fff;
 }
 
-.contenedor_sobre_mi{
+.contenedor_sobre_mi {
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -145,10 +144,10 @@ body{
     font-family: 'Archivo', sans-serif;
     text-align: justify;
     padding: 100px 20px 20px 20px;
-    
+
 }
 
-.contenedor_habilidades{
+.contenedor_habilidades {
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -156,18 +155,18 @@ body{
     display: block;
 }
 
-.contenedor_foto{
+.contenedor_foto {
     width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
     display: block;
     text-align: center;
-    
+
 }
 
 
-.contenedor_iconos{
+.contenedor_iconos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
@@ -176,24 +175,24 @@ body{
 
 
 
-.contenedor_leyenda{
+.contenedor_leyenda {
     padding: 70px 20px 20px 20px;
     text-align: justify;
     width: auto;
     height: auto;
-    font-size:20px;
+    font-size: 20px;
     font-family: 'Archivo', sans-serif;
 }
 
-.contenedor_hablemos{
-        margin-top: 5%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+.contenedor_hablemos {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
-.hablemos:hover{
+.hablemos:hover {
     background-color: #000000;
     /*width: max-content;
     font-family: 'Lobster';*/
@@ -202,9 +201,9 @@ body{
     border-radius: 35px;*/
     color: #ffffff;
     border-style: outset;
-  }
+}
 
-.titulo_habilidades{
+.titulo_habilidades {
     background-color: rgb(0, 0, 0);
     text-align: center;
     vertical-align: center;
@@ -216,15 +215,14 @@ body{
 
 
 
-.borde{
+.borde {
     border: 2px solid black;
     width: auto;
 }
 
-.iconos{
-    
+.iconos {
+
     margin: 15px;
-    /*background-color: #fff;*/
     padding: 7px;
     border-radius: 25%;
     text-align: center;
@@ -232,22 +230,23 @@ body{
 }
 
 
-.slider{
+.slider {
     display: flex;
     aspect-ratio: 16 / 9;
     overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    
+
     border-radius: 16px
 }
 
-.slider img{
+.slider img {
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: content;
 }
-.slider-nav{
+
+.slider-nav {
     display: flex;
     column-gap: 1rem;
     position: absolute;
@@ -258,74 +257,74 @@ body{
     z-index: 1;
 }
 
-.slider-nav a{
+.slider-nav a {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #fff;
     opacity: .75;
     transition: opacity ease 250ms;
-    
+
 
 }
 
 
-.slider-nav a:hover{
+.slider-nav a:hover {
     opacity: 100%;
 }
 
-.foot{
+.foot {
     display: flex;
     gap: 15px;
-    justify-content:end;
+    justify-content: end;
 }
 
-.relevante{
+.relevante {
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 
-.foto_interno{
+.foto_interno {
     border-radius: 50%;
     margin: 50px;
     overflow: hidden;
     width: 250px;
     height: 250px;
-    
+
 }
 
-.foto_redonda{
+.foto_redonda {
     width: 250px;
     height: 250px;
     overflow: hidden;
     border-radius: 50%;
     margin: 20% 0 10px 15%;
-    
-    
-    
+
+
+
 }
 
 .foto_redonda img {
     width: 100%;
     height: auto;
     margin-top: -25px;
-  }
+}
 
-  .contenedor_foto_sobre_mi{
+.contenedor_foto_sobre_mi {
     display: none;
-  }
+}
 
-  .titulo_habilidades{
+.titulo_habilidades {
     font-family: 'Archivo', sans-serif;
     font-size: 40px;
     color: #fff;
-    
-  }
 
- 
+}
 
-  .hablemos{
+
+
+.hablemos {
     background-color: #303440;
     width: max-content;
     font-family: 'Lobster';
@@ -334,76 +333,76 @@ body{
     border-radius: 35px;
     color: #fff;
     transition: .25s;
-  }
+}
 
 
-  .contenido{
+.contenido {
     width: 100%;
     height: 200px;
     background-color: #fff;
-  }
+}
 
 
-  @media screen and (max-width: 720px){
+@media screen and (max-width: 720px) {
 
-    .contenedor_global_superior{
+    .contenedor_global_superior {
         display: block;
         height: auto;
     }
 
-    .contenedor_sobre_mi{
+    .contenedor_sobre_mi {
         padding: 25px;
     }
 
-    .contenedor_derecha_sobre_mi{
+    .contenedor_derecha_sobre_mi {
         display: block;
         height: auto;
     }
 
-    .contenedor_habilidades{
+    .contenedor_habilidades {
         padding: 1px;
         margin-bottom: 20px;
     }
 
-    .titulo_habilidades{
+    .titulo_habilidades {
         font-size: 60px;
     }
 
-    .contenedor_foto{
+    .contenedor_foto {
         display: none;
     }
 
-    .list{
+    .list {
         width: 97vw;
     }
 
-    .list_button.list_img{
-       text-align: justify;
+    .list_button.list_img {
+        text-align: justify;
     }
 
-    .contenedor_global_inferior{
+    .contenedor_global_inferior {
         display: block;
         height: auto;
-        
-    }
-    
-    .relevante{
-        margin-left: 30%;
-        margin-top: 5px;
-               
+
     }
 
-    .foot{
+    .relevante {
+        margin-left: 30%;
+        margin-top: 5px;
+
+    }
+
+    .foot {
         margin-right: 5%;
     }
 
-    .list_img{
+    .list_img {
         border-radius: 50%;
         justify-content: center;
-    
+
     }
 
-    .foto_sobre_mi{
+    .foto_sobre_mi {
         display: block;
         width: 250px;
         height: 250px;
@@ -415,18 +414,18 @@ body{
         justify-content: center;
         margin-bottom: 30px;
     }
-    
+
     .foto_sobre_mi img {
         width: 100%;
         height: auto;
         margin-top: -25px;
-      }
+    }
 
-      .contenedor_foto_sobre_mi{
+    .contenedor_foto_sobre_mi {
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
-      }
+    }
 
-  }
+}
