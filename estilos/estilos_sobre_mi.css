@@ -429,3 +429,90 @@ body {
     }
 
 }
+
+@media screen and (max-width: 850px) {
+
+    .contenedor_global_superior {
+        display: block;
+        height: auto;
+    }
+
+    .contenedor_sobre_mi {
+        padding: 25px;
+    }
+
+    .contenedor_derecha_sobre_mi {
+        display: block;
+        height: auto;
+    }
+
+    .contenedor_habilidades {
+        padding: 1px;
+        margin-bottom: 20px;
+    }
+
+    .titulo_habilidades {
+        font-size: 60px;
+    }
+
+    .contenedor_foto {
+        display: none;
+    }
+
+    .list {
+        width: 97vw;
+    }
+
+    .list_button.list_img {
+        text-align: justify;
+    }
+
+    .contenedor_global_inferior {
+        display: block;
+        height: auto;
+
+    }
+
+    .relevante {
+        margin-left: 30%;
+        margin-top: 5px;
+
+    }
+
+    .foot {
+        margin-right: 5%;
+    }
+
+    .list_img {
+        border-radius: 50%;
+        justify-content: center;
+
+    }
+
+    .foto_sobre_mi {
+        display: block;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 50%;
+        /*margin: 20% 0 10px 15%;*/
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .foto_sobre_mi img {
+        width: 100%;
+        height: auto;
+        margin-top: -25px;
+    }
+
+    .contenedor_foto_sobre_mi {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+}
