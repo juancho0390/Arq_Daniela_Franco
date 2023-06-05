@@ -334,3 +334,18 @@ body{
     height: 200px;
     background-color: #fff;
   }
+
+
+  @media screen and (max-width: 900px){
+
+    .contenedor_global_superior{
+        display: block;
+        height: auto;
+    }
+
+    .contenedor_derecha_sobre_mi{
+        display: block;
+        height: auto;
+    }
+    
+  }
