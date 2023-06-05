@@ -336,7 +336,7 @@ body{
   }
 
 
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 720px){
 
     .contenedor_global_superior{
         display: block;
@@ -347,5 +347,33 @@ body{
         display: block;
         height: auto;
     }
+
+    .contenedor_habilidades{
+        padding: 1px;
+        margin-bottom: 20px;
+    }
+
+    .titulo_habilidades{
+        font-size: 60px;
+    }
+
+    .contenedor_foto{
+        display: none;
+    }
+
+    .list{
+        width: 97vw;
+    }
+
+    .list_button.list_img{
+        margin-left: 35%;
+    }
+
+    .contenedor_global_inferior{
+        display: block;
+    }
     
+    .relevante{
+        margin-left: 30%;
+    }
   }
