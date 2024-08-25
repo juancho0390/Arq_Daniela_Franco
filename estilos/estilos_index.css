@@ -210,24 +210,34 @@ body {
         height: auto;
     }
 
-    .list {
-        width: 97vw;
+    .contenedor_global_inferior {
+        width: 95vw;
+        height: auto;
+        margin: 0 auto;
+
     }
 
-    .contenedor_global_inferior {
+    .list {
+        width: 95vw;
+    }
+
+    .sub-container {
         display: block;
         height: auto;
+        width: 95vw;
+        padding: 2vw;
 
     }
 
     .relevante {
-        margin-left: 30%;
+        justify-content: center;
         margin-top: 5px;
 
     }
 
     .foot {
-        margin-right: 5%;
+        justify-content: center;
+        padding: 20px;
     }
 
     .list_img {
@@ -264,7 +274,7 @@ body {
         column-gap: 1rem;
         position:absolute;
         bottom: 20px;
-        left: 30%;
+        left: 20%;
         z-index: 1;        
     }
 
